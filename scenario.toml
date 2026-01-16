@@ -4,7 +4,7 @@ env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }
                                                                                                                                                                                                         
 [[participants]]                                                                                                                                                                                      
 agentbeats_id = "019bc6a4-5dbb-7d11-b1ba-2f48b31ab6e0"                                                                                                                                                                
-name = "baseline"                                                                                                                                                                                     
+name = "purple-agent"                                                                                                                                                                                     
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", MODEL_NAME = "gpt-4o-mini" }                                                                                                                                                         
 
 [config]                                                                                                                                                                                             
