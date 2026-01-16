@@ -1,10 +1,12 @@
 [green_agent]                                                                                                                                                                                         
-agentbeats_id = "019bc5e5-975c-7fe1-ab1e-2e67936e8443"                                                                                                                                                                 
+agentbeats_id = "019bc5e5-975c-7fe1-ab1e-2e67936e8443"
+image = "ghcr.io/sszz01/logomesh:green"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}" }                                                                                                                                                        
                                                                                                                                                                                                         
 [[participants]]                                                                                                                                                                                      
 agentbeats_id = "019bc6a4-5dbb-7d11-b1ba-2f48b31ab6e0"                                                                                                                                                                
-name = "purple-agent"                                                                                                                                                                                     
+name = "purple-agent"
+image = "ghcr.io/sszz01/logomesh:purple"
 env = { OPENAI_API_KEY = "${OPENAI_API_KEY}", MODEL_NAME = "gpt-4o-mini" }                                                                                                                                                         
 
 [config]                                                                                                                                                                                             
