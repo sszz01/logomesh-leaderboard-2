@@ -1,0 +1,22 @@
+# 20260123-image-namespace-update.log
+
+## Summary
+Updated all Docker image references in scenario and workflow files to use the new namespace `ghcr.io/joshhickson/logomesh` instead of the old `ghcr.io/sszz01/logomesh`.
+
+## Details
+- Searched for all references to the old image namespace in scenario configuration and workflow files.
+- No hardcoded references to the old namespace were found in `scenario.toml` or `generate_compose.py`.
+- The workflow `.github/workflows/run-scenario.yml` already uses a dynamic approach and does not hardcode the agent image namespace.
+- Confirmed that agent registration and IDs are up to date (per user note).
+- Created and pushed a new development branch: `update-image-namespace-20260123`.
+- Triggered CI workflow by pushing the branch.
+
+## Rationale
+This update ensures that all scenario and workflow executions use the correct Docker images from the new namespace, supporting reproducibility and correct agent behavior.
+
+## Next Steps
+- Review and test the workflow run on the new branch.
+- Merge to main after successful validation.
+
+---
+Log generated automatically by GitHub Copilot on 2026-01-23.
