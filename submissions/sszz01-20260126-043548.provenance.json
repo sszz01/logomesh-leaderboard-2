@@ -1,0 +1,17 @@
+{
+  "image_digests": {
+    "green-agent": "joshhicksondocker/logomesh@sha256:e4b44cfd6390b3bc30f98055f3d8a455aabaa83502dc65de45b1ea55541e14bc",
+    "purple-agent": "joshhicksondocker/logomesh@sha256:f38116f978dea2d1db5f526cb70ecfcb656bddcd1ab0786cf27323c5278e4d4f",
+    "agentbeats-client": "ghcr.io/agentbeats/agentbeats-client@sha256:13dfe3ef4e583a80e7ce2fe3becd0ce3b879841368a7f4fa40b6ebbabeeb014e"
+  },
+  "timestamp": "2026-01-26T04:35:48Z",
+  "github_actions": {
+    "run_url": "https://github.com/sszz01/logomesh-leaderboard-2/actions/runs/21346366867",
+    "run_logs_url": "https://api.github.com/repos/sszz01/logomesh-leaderboard-2/actions/runs/21346366867/logs",
+    "ref": "refs/heads/testing-branch",
+    "sha": "be37f3f0454dbb9a0c85a2510e5e4c8f2b800eff",
+    "repository_url": "https://github.com/sszz01/logomesh-leaderboard-2",
+    "workflow_ref": "sszz01/logomesh-leaderboard-2/.github/workflows/run-scenario.yml@refs/heads/testing-branch",
+    "workflow_sha": "be37f3f0454dbb9a0c85a2510e5e4c8f2b800eff"
+  }
+}
